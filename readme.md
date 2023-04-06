@@ -29,7 +29,7 @@ B\* algoritmasının çalışma zamanı analizi, genişletilen düğümlerin say
 
 **Uygulamada Kullanılamamasının Nedeni**
 
-Yapılan alice_in_wonderland.txt dosyasının içinde \*“upon, Dormouse, sigh, jury-box, swim”\_ kelimelerinin kaç kez tekrar ettiği uygulamasında B\* algoritması kullanılamamasının
+Yapılan alice_in_wonderland.txt dosyasının içinde _“upon, Dormouse, sigh, jury-box, swim”_ kelimelerinin kaç kez tekrar ettiği uygulamasında B\* algoritması kullanılamamasının
 sebebi:
 
 1. Graf arama problemlerinin çözümlerinden kullanılan bir algoritmadır. Bu nedenle, doğrudan bir metin içinde kelime araması yapmak için uygun bir algoritma değildir. Bundan dolayı B\* algoritması bu uygulamada kullanılamamıştır.
