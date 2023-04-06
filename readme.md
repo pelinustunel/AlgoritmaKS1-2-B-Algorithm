@@ -26,7 +26,9 @@ B\* algoritmasının çalışma zamanı analizi, genişletilen düğümlerin say
 **Ortalama durumda**, zaman karmaşıklığı `O(b^d)`, burada b, genişleme faktörü ve d, öncül düğümden hedef düğüme olan en kısa yolun uzunluğudur(gereken maksimum derinlik). Bu durum, aranan yolu bulmak için genellikle çok sayıda düğüm genişletmesi gerektiği durumlarda geçerlidir. Algoritma, genişlemelerini yapmak için çok sayıda alternatif yol arar ve bu nedenle ortalama karmaşıklığı artar.
 
 **En iyi durumda**, başlangıç düğümü ve hedef düğümü arasındaki en kısa yol doğrudan bir kenardan geçerse, algoritma sadece bir kez çalışır ve zaman karmaşıklığı `O(d)` olur.
+
 **Uygulamada Kullanılamamasının Nedeni**
+
 Yapılan alice_in_wonderland.txt dosyasının içinde \*“upon, Dormouse, sigh, jury-box, swim”\_ kelimelerinin kaç kez tekrar ettiği uygulamasında B\* algoritması kullanılamamasının
 sebebi:
 
