@@ -1,6 +1,6 @@
-## B\* Algoritması
+# B\* Algoritması
 
-# B\* Algoritmasının Amacı nedir ve Ne İçin Kullanılır?
+## B\* Algoritmasının Amacı nedir ve Ne İçin Kullanılır?
 
 B* algoritması, Graf arama problemlerini çözmek için kullanılan bir algoritmadır.
 Bunun dışında yapay zeka, robotik ve oyun programlaması gibi alanlarda kullanılabilmektedir.
@@ -11,13 +11,13 @@ B* algoritması sadece en uygun yolu değil, aynı zamanda ikinci en uygun yolu 
 1. En iyi yolun maliyetinin belirlenmesi
 2. İkinci en iyi yolun aranması
 
-# B\* Algoritmasının Çalışma Mantığı
+## B\* Algoritmasının Çalışma Mantığı
 
 B\* algoritmasının çalışma şekli, bir öncül düğüm ve bir hedef düğüm belirleyerek başlar. Algoritma, öncül düğümden hedef düğüme doğru olası yolları aramaya başlar ve her bir yolun maliyetini hesaplar. Bu maliyetler daha sonra bir öncelik sırasına göre sıralanır ve algoritma, sıralamada üst sırada olan yolları genişletir. Bu genişletme işlemi, öncül düğümden hedef düğüme doğru yol üzerindeki düğümleri keşfetmek için kullanılır. Bu işlem, hedef düğüme ulaşana kadar devam eder.
 
 <img src="https://github.com/pelinustunel/AlgoritmaKs1-2-B-Algorithm/blob/main/B_algorithm.jpeg" alt="B* algoritması mantığı" width="500">
 
-# B\* Algoritmasının Çalışma Zamanı
+## B\* Algoritmasının Çalışma Zamanı
 
 B\* algoritmasının çalışma zamanı analizi, genişletilen düğümlerin sayısına bağlıdır.
 
